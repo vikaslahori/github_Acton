@@ -6,8 +6,8 @@ on:
 
 jobs:
   build: 
-  runs-on: ubuntu-latest
-  steps:
-  - uses: actions/checkout@v4
-  - name: run this file for testing
-   run: echo this is my first pipeline 
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v4
+     - name: run this file for testing
+     run: echo this is my first pipeline 
