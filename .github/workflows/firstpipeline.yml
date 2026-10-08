@@ -2,7 +2,7 @@ name: my first pipeline
 
 on: 
   push:
-    branch: main 
+    branches: main 
 
 jobs:
   build: 
@@ -10,4 +10,4 @@ jobs:
     steps:
      - uses: actions/checkout@v4
      - name: run this file for testing
-     run: echo this is my first pipeline 
+     run: echo this is my first pipeline
